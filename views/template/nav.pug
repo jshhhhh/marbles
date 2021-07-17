@@ -1,16 +1,25 @@
-#logo 
-	img(src="/imgs/logo.png")#logoIcon
-	//- span #{bag.marble_company}
-	span#cloverwallet Clover Wallet
+#flexbox
+	#logo 
+		img(src="/imgs/logo.png")#logoIcon
+		//- span #{bag.marble_company}
+		span#cloverwallet Clover Wallet
+
+	
 
 
-#whoAmI
-	span.fa.fa-user#userIcon
-	span#userField 😊사용자
-	span &nbsp;
-	span.fa.fa-angle-down#carrot
+	#whoAmI
+		button(disabled="disabled")#aboutpanel 
+							span &nbsp; 어바웃
+		span &nbsp;
+		span &nbsp;
+		span &nbsp;
+		//- span.fa.fa-user#userIcon
+		span#userField 😊사용자
+		span &nbsp;
+		span.fa.fa-angle-down#carrot
 	
 
 	#userSelect
 		#triangle
 		a(href="/logout").userLine 😪로그아웃
+
