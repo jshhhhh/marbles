@@ -284,7 +284,7 @@ select {
     padding: 5px 10px;
     margin: 5px;
     color: black;
-    border: 1px solid #bdbebd;
+    border: 1px solid  white;
     border-radius: 500px;
     background: white;
     min-width: 120px;
@@ -1294,6 +1294,7 @@ background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, F
     background: #646b73;
     color: #fff;
     height: 100%;
+    opacity: 0.7;
 }
 #auditLegend {
     color: #e5ebef;
@@ -1882,3 +1883,8 @@ background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, F
 #title{
     font-family: 'Noto Serif KR', serif;
 }
+
+input::placeholder {
+    color:rgba(100, 107, 115, 0.2);
+    font-style: italic;
+  }
