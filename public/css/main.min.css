@@ -145,7 +145,8 @@ body {
     min-width: 745px;
 }
 h1 {
-    font-size: 35px;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 40px;
     font-weight: 400;
     margin: 0;
 }
@@ -273,18 +274,27 @@ input[type=submit]:hover {
 input[type=password],
 input[type=text],
 select {
-    padding: 5px 10px;
+    /* padding: 5px 10px;
     margin: 5px;
     color: #fff;
     border: 1px solid #646b73;
     border-radius: 5px;
     background: #343d48;
+    min-width: 120px; */
+    padding: 5px 10px;
+    margin: 5px;
+    color: black;
+    border: 1px solid #bdbebd;
+    border-radius: 500px;
+    background: white;
     min-width: 120px;
+    font-size: 20px;
 }
 input[type=password]:disabled,
 input[type=text]:disabled,
 select:disabled {
     color: #646b73;
+    
 }
 input.longer {
     min-width: 650px;
@@ -507,11 +517,12 @@ strong {
     margin: 0;
 }
 .companyPanel {
-    background: #ddebff; 
+    background: #ddebff;
     padding: 0;
     border-radius: 3px;
     margin-bottom: 5px;
     color: #fff;
+    opacity: 0.7;
 }
 .floatRight {
     float: right;
@@ -1864,5 +1875,10 @@ background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, F
 }
 
 #trashbin.sortable.innerMarbleWrap {
-    color: #000000
+    color: #000000;
+    opacity: 0.7;
+}
+
+#title{
+    font-family: 'Noto Serif KR', serif;
 }
