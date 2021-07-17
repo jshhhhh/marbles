@@ -355,9 +355,9 @@ strong {
     height: 60px;
     line-height: 60px;
     width: 100%;
-    background: #e5ebef;
+    /* background: #e5ebef; */
     font-size: 15px;
-    color: #39424d;
+    color: white;
 }
 #mainPanel {
     color: #fff;
@@ -385,7 +385,7 @@ strong {
     font-weight: 600;
     position: relative;
     z-index: 4;
-    font-size: 24px;
+    font-size: 50px;
 }
 #logoIcon {
     display: inline-block;
