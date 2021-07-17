@@ -5,43 +5,43 @@
 	#stepWelcomeWrap
 		#rightSide
 			.headingText
-				span Welcome to the Marbles&nbsp;
-				strong Hyperledger Fabric&nbsp;
-				span demo!
+				span 환영합니다&nbsp;
+				strong 하이퍼레져 퍼블릭&nbsp;
+				span Clover 지갑 데모!
 
 			br
 			p.centerText
-				span.chooseTxt How should we setup?
+				span.chooseTxt 어떻게 설정할가요?
 
 				br
 
 				span.hint.guideHints(style="margin-left: -170px;")
-					span Already a fabric expert? Default setup here.&nbsp;&nbsp;
+					span fabric을 이용해 보신 적이 있나요? 여기서 기본설정이 가능합니다.&nbsp;&nbsp;
 					span.fa.fa-arrow-right
 				button.guideButtons#instantSetup
 					span.fa.fa-rocket &nbsp;&nbsp;&nbsp;
-					span Express
+					span 빠르게 시작하기
 				span &nbsp;&nbsp;&nbsp;
 				button.guideButtons#startSteps
 					span.fa.fa-gears &nbsp;&nbsp;&nbsp;
-					span Guided
+					span 가이드
 				span.hint.guideHints
 					span.fa.fa-arrow-left
-					span &nbsp;&nbsp;Want to learn about fabric or customize the setup?
+					span &nbsp;&nbsp; 패브릭에 대해 알아보기 Or 사용자설정
 				br
 				br
 
 				#wait4cc.warningWrap
-					p Your chaincode is still starting. We need to wait...
-					#dateChecked Checking
+					p 체인코드가 시작되고 있습니다. 기다려주세요...
+					#dateChecked 체크중
 
 				#failedSetup.warningWrap
 					p
 						span.fa.fa-bug &nbsp;&nbsp;&nbsp;
-						span Boo, there is an issue with the configuration or network.&nbsp;
-						span Enter the&nbsp;
-						strong Guided
-						spansetup &nbsp;setup to correct it.
+						span Boo, 구성 또는 네트워크에 문제가 있습니다.&nbsp;
+						span 엔터 &nbsp;
+						strong 가이드
+						spansetup &nbsp;수정하도록 설정합니다.
 
 			div.centerText
 				include ./template/loading.pug

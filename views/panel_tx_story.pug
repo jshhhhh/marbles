@@ -6,7 +6,7 @@
 	.txStepWrap#txStep1.inactiveStep
 		.txStatusWrap
 			.txStatus
-		.txLegend Build Proposal
+		.txLegend 제안서 작성
 		.txStoryWrap
 			.marbleWrap
 				div.ball#proposeMarbleStable.hideBorders.leftPos(title="Your marble tx")
@@ -16,14 +16,14 @@
 				div.ball#marbleBorderLeft.leftPos
 				div.ball#marbleBorderRight.leftPos
 		.txDescription
-			span The invocation needs to be signed and packaged as a proposal. 
-			span This is done here, in the Marbles application. 
+			span invocation은 서명과 제안서가 제시됩니다.
+			span 이 작업은 클로버 애플리케이션에서 수행됩니다.
 
 	//----------------- Step 2 Content
 	.txStepWrap#txStep2.inactiveStep
 		.txStatusWrap
 			.txStatus
-		.txLegend Endorsement
+		.txLegend 보증
 		.txStoryWrap 
 			.marbleWrap
 				div.ball#endorseMarbleStable(title="Your marble tx")
@@ -31,15 +31,15 @@
 				div.ball#endorseMarble
 					span.fa.fa-check
 		.txDescription
-			span Next, we send the transaction proposal to our peer for endorsement. 
-			span The peer will simulate the transaction, verify the proposal, and then sign the proposal. 
-			span It is then sent back to Marbles.
+			span 다음으로, 승인을 위해 거래 제안을 피어에게 보냅니다. 
+			span 피어는 트랜잭션을 시뮬레이션하고 제안서를 확인한 다음 제안서에 서명합니다.
+			span 그런 다음 Clover가 전송됩니다.
 
 	//----------------- Step 3 Content
 	.txStepWrap#txStep3.inactiveStep
 		.txStatusWrap
 			.txStatus
-		.txLegend Ordering
+		.txLegend 주문
 		.txStoryWrap
 			#orderBoxStable 
 				span.ball.ordererMarbles.hideMe(title="Another marble tx")
@@ -50,23 +50,23 @@
 					span.fa.fa-check
 				#orderBox Block
 		.txDescription
-			span Then Marbles will send our endorsed proposal to the orderer. 
-			span The orderer will sequence transactions from throughout the network including ours. 
+			span 그런 다음 Clover는 승인된 제안서를 오더러에게 보냅니다.
+			span 오더러는 피어를 포함하여 네트워크 전체에서 트랙잭션의 순서를 정할 것입니다.
 
 	//----------------- Step 4 Content
 	.txStepWrap#txStep4.inactiveStep
 		.txStatusWrap
 			.txStatus
-		.txLegend Validate & Commit
+		.txLegend 체인코드 실행 & 원장 갱신
 		.txStoryWrap 
 			#commitBoxStable(title="Block")
 				span.fa.fa-search
 		.txDescription
-			span The block containing our transaction is sent from the orderer to our peer. 
-			span Finally it is validated by the peer and then committed to the peer's ledger. 
+			span 트랜잭션이 포함된 블록은 오더러에서 피어로 전송됩니다. 
+			span 마지막으로, 피어에 의해 검증되고 피어의 원장에 커밋됨.
 
 	div
-		.hint * Note the speed of this process is slowed down for demonstration purposes
+		.hint * 시연용으로 이 프로세스의 속도가 느려지는 것을 참고하세요.
 
 	#txStoryErrorWrap 
 		span.fa.fa-warning(style="fill: #000;")
@@ -74,7 +74,7 @@
 
 	//----------------- All done
 	.stepHelpWrap#doneTxStep
-		h2 Invoke Complete
+		h2 완료
 		br
 		br
-		button(type="button").closeTxStory Close
+		button(type="button").closeTxStory 닫기

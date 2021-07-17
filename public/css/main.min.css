@@ -749,7 +749,7 @@ background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, F
 }
 .orangebg {
     /* background: #ed8f30; */
-    background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
 }
 .yellowbg {
     /* background: #dac94e; */
@@ -1837,4 +1837,11 @@ background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, F
     border-width: 5px;
     border-style: solid;
     border-color: #50565f transparent transparent transparent;
+}
+.cloverwallet{
+    display: inline-block;
+    font-weight: 600;
+    position: relative;
+    z-index: 4;
+    font-size: 24px;
 }
