@@ -393,6 +393,7 @@ strong {
     padding-bottom: 20px;
     display: flex;
     justify-content:space-between;
+    opacity: 0.8;
 }
 .centerText {
     text-align: center;
@@ -1294,7 +1295,7 @@ background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, F
     background: #646b73;
     color: #fff;
     height: 100%;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 #auditLegend {
     color: #e5ebef;
