@@ -503,6 +503,7 @@ strong {
     margin-right: 10px;
     vertical-align: top;
     background: #39424d;
+    font-family: 'Nanum Brush Script', cursive;
 }
 .innerMarbleWrap {
     min-height: 100px;
@@ -763,7 +764,7 @@ strong {
 }
 .bluebg {
     /* background: #3d76ba; */
-background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
 
 }
 .purplebg {
@@ -1913,4 +1914,7 @@ input::placeholder {
   }
   #adminText{
       color:black;
+  }
+  #titleSe{
+    font-family: 'Nanum Brush Script', cursive;
   }
