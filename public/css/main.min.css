@@ -1886,8 +1886,11 @@ background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, F
     z-index: 4;
     font-size: 24px;
 }
-.flexbox{
+#flexbox{
+    height: 55px;
     display: flex;
+    align-items:center;
+    justify-content: center;
 }
 #Center{
     text-align: center;
@@ -1908,4 +1911,8 @@ background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, F
 input::placeholder {
     color:rgba(100, 107, 115, 0.2);
     font-style: italic;
+  }
+
+  #flexboxx{
+      display: flex;
   }
