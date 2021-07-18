@@ -155,6 +155,7 @@ h2 {
     font-weight: 400;
     margin: 0;
     display: inline;
+    color:black;
 }
 h3 {
     font-size: 20pt;
@@ -226,6 +227,7 @@ thead tr {
 p {
     margin: 5px;
     padding: 0;
+    color:black;
 }
 hr {
     height: 1px;
@@ -837,6 +839,7 @@ background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, F
 }
 #split1x3Wrap {
     margin-top: 100px;
+    color:black;
 }
 .split1x3 {
     display: inline-block;
@@ -1902,4 +1905,7 @@ input::placeholder {
 
   #flexboxx{
       display: flex;
+  }
+  #adminText{
+      color:black;
   }
