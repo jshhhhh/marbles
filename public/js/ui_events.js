@@ -199,7 +199,7 @@ $(document).on('ready', function () {
 	$('#ShowaboutPanel  ').click(function () {
 		$('#aboutPanel  , #tint').fadeIn();
 	});
-	$('#closeaboutPanel').click(function () {
+	$('#closeSettings').click(function () {
 		$('#aboutPanel  , #tint').fadeOut();
 	});
 	
