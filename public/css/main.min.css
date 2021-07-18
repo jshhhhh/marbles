@@ -1007,7 +1007,8 @@ background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, F
 }
 #settingsPanel,
 #startUpPanel,
-#txStoryPanel {
+#txStoryPanel,
+#aboutPanel {
     display: none;
     position: fixed;
     top: 60px;
@@ -1023,28 +1024,14 @@ background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, F
     opacity: 0.85;
     color:black;
 }
-#aboutPanel{
-    display: none;
-    position: fixed;
-    top: 60px;
-    background: #343d48;
-    border: 1px #646b73 solid;
-    z-index: 1005;
-    padding: 30px;
-    width: 90%;
-    left: 1%;
-    min-width: 720px;
-    border-radius: 3px;
-}
+
 #settingsPanel,
-#startUpPanel {
+#startUpPanel,
+#aboutPanel {
     position: absolute;
     top: 0;
 }
-#aboutPanel{
-    position: absolute;
-    top: 0;
-}
+
 #startUpPanel {
     width: 70%;
     left: 13%;
