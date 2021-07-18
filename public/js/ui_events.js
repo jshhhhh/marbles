@@ -189,18 +189,18 @@ $(document).on('ready', function () {
 
 	//settings panel
 	$('#showSettingsPanel').click(function () {
-		$('#settingsPanel').fadeIn();
+		$('#settingsPanel, #tint').fadeIn();
 	});
 	$('#closeSettings').click(function () {
-		$('#settingsPanel').fadeOut();
+		$('#settingsPanel, #tint').fadeOut();
 	});
 
 	//about panel
 	$('#ShowaboutPanel  ').click(function () {
-		$('#aboutPanel').fadeIn();
+		$('#aboutPanel,#tint').fadeIn();
 	});
 	$('#closeSettings').click(function () {
-		$('#aboutPanel').fadeOut();
+		$('#aboutPanel,#tint').fadeOut();
 	});
 	
 
