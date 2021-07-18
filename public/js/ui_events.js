@@ -170,6 +170,7 @@ $(document).on('ready', function () {
 		if ($('#startUpPanel').is(':visible')) return;
 		if ($('#txStoryPanel').is(':visible')) return;
 		$('#createPanel, #tint, #settingsPanel').fadeOut();
+		$('#createPanel, #tint, #aboutPanel ').fadeOut();
 	});
 
 	//notification drawer
@@ -194,6 +195,15 @@ $(document).on('ready', function () {
 	$('#closeSettings').click(function () {
 		$('#settingsPanel, #tint').fadeOut();
 	});
+
+	//about panel
+	$('#ShowaboutPanel  ').click(function () {
+		$('#aboutPanel  , #tint').fadeIn();
+	});
+	$('#closeSettings').click(function () {
+		$('#aboutPanel  , #tint').fadeOut();
+	});
+	
 
 	//story mode selection
 	$('#disableStoryMode').click(function () {

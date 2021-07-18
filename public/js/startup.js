@@ -236,5 +236,5 @@ function show_start_up_step(obj) {
 		}
 	}
 
-	$('#showStartupPanel, #showSettingsPanel').prop('disabled', false);
+	$('#showStartupPanel, #showSettingsPanel, #ShowaboutPanel').prop('disabled', false);
 }
