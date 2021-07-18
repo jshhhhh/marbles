@@ -170,7 +170,6 @@ $(document).on('ready', function () {
 		if ($('#startUpPanel').is(':visible')) return;
 		if ($('#txStoryPanel').is(':visible')) return;
 		$('#createPanel, #tint, #settingsPanel').fadeOut();
-		$('#createPanel, #tint, #aboutPanel ').fadeOut();
 	});
 
 	//notification drawer
@@ -200,7 +199,7 @@ $(document).on('ready', function () {
 	$('#ShowaboutPanel  ').click(function () {
 		$('#aboutPanel  , #tint').fadeIn();
 	});
-	$('#closeSettings').click(function () {
+	$('#closeaboutPanel').click(function () {
 		$('#aboutPanel  , #tint').fadeOut();
 	});
 	
