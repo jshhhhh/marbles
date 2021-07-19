@@ -491,7 +491,8 @@ strong {
     font-size: 11px;
 }
 .marblesWrap {
-    display: inline-block;
+    display: flex;
+    flex-direction:column;
     min-width: 235px;
     text-align: left;
     color: #fff;
@@ -502,8 +503,12 @@ strong {
     margin-left: 10px;
     margin-right: 10px;
     vertical-align: top;
-    background: #39424d;
+    /* background: #646b73; */
+    background:#827870;
+    border: 3px black solid;
+    border-style: dashed; 
     font-family: 'Nanum Brush Script', cursive;
+    opacity: 0.9;
 }
 .innerMarbleWrap {
     min-height: 100px;
