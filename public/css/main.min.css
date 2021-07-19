@@ -353,7 +353,8 @@ strong {
     min-width: 765px;
 }
 .rightEverythingOpened {
-    width: calc(100% - auditSize);
+    /* width: calc(100% - auditSize); */
+    width: 100%;
     left: 333px;
     position: absolute;
 }
@@ -1315,10 +1316,13 @@ strong {
 #auditWrap {
     position: absolute;
     width: 100%;
-    background: #646b73;
+    background:#827870;
     color: #fff;
     height: 100%;
     opacity: 0.9;
+    border: 3px black solid;
+    border-style: dashed; 
+    border-radius: 10px;
 }
 #auditLegend {
     color: #e5ebef;
