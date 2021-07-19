@@ -769,7 +769,7 @@ strong {
 }
 .purplebg {
     /* background: #634fa1; */
-    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+    background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
 }
 .pinkbg {
     /* background: #cc5aa2; */
