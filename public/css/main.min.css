@@ -1087,7 +1087,8 @@ strong {
 #closePos,
 #closeSettings,
 #closeStartUp,
-#closeTxStoryPos {
+#closeTxStoryPos,
+#closeAbout {
     position: absolute;
     right: 15px;
     top: 15px;
@@ -1096,7 +1097,8 @@ strong {
 #closePos:hover,
 #closeSettings:hover,
 #closeStartUp:hover,
-#closeTxStoryPos:hover {
+#closeTxStoryPos:hover,
+#closeAbout:hover {
     color: #ff5b5b;
     cursor: pointer;
 }

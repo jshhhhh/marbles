@@ -169,7 +169,7 @@ $(document).on('ready', function () {
 	$('#tint').click(function () {
 		if ($('#startUpPanel').is(':visible')) return;
 		if ($('#txStoryPanel').is(':visible')) return;
-		$('#createPanel, #tint, #settingsPanel').fadeOut();
+		$('#createPanel, #tint, #settingsPanel, #aboutPanel').fadeOut();
 	});
 
 	//notification drawer
@@ -196,10 +196,10 @@ $(document).on('ready', function () {
 	});
 
 	//about panel
-	$('#ShowaboutPanel  ').click(function () {
+	$('#ShowaboutPanel').click(function () {
 		$('#aboutPanel,#tint').fadeIn();
 	});
-	$('#closeSettings').click(function () {
+	$('#closeAbout').click(function () {
 		$('#aboutPanel,#tint').fadeOut();
 	});
 	
